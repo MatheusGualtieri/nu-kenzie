@@ -1,0 +1,18 @@
+.container-total-value {
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: fit-content;
+  border: 2px solid var(--color-grey-2);
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem 0;
+}
+.container-total-value label {
+  width: 70%;
+}
+#total-value {
+  color: var(--color-primary-1);
+}

@@ -1,0 +1,36 @@
+.container-form {
+  padding: 2rem 1rem;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-sizing: border-box;
+  border: 2px solid var(--color-grey-2);
+  border-radius: var(--border-radius);
+}
+.container-value {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.container-value .input-value,
+.container-value .input-select,
+.container-value .text-1 {
+  width: 40%;
+}
+.input-value {
+  display: flex;
+}
+.input-value input {
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
+  width: 70%;
+}
+.input-value p.input {
+  width: 30%;
+  padding: 0.75rem 0;
+  color: var(--color-grey-4);
+  text-align: center;
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}

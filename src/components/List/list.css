@@ -1,0 +1,23 @@
+.container-list {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.list-item {
+  width: 100%;
+  height: fit-content;
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.item-negative {
+  background-color: var(--color-grey-3);
+}
+.item-positive {
+  background-color: var(--color-secondary);
+}

@@ -1,0 +1,11 @@
+h2 span {
+  color: var(--color-primary-1);
+}
+
+.container-nav {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
