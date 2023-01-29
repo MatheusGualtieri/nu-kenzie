@@ -5,7 +5,6 @@ import List from "./components/List";
 import TotalMoney from "./components/TotalMoney";
 import Header from "./components/Header";
 import Login from "./components/Login";
-import "/illustration.svg";
 function App() {
   const [listTransactions, setListTransactions] = useState([]);
   const [isLogged, setIsLogged] = useState(false);
@@ -49,12 +48,6 @@ function App() {
           <main className="main">
             <div className="container">
               <Login handleLogin={handleLogin}></Login>
-
-              <img
-                className="login-logo"
-                src="./illustration.svg"
-                alt="login logo"
-              />
             </div>
           </main>
         </>
