@@ -26,7 +26,7 @@ function App() {
       {isLogged === true ? (
         <>
           <header>
-            <Header handleLogout={handleLogin}></Header>
+            <Header handleLogout={handleLogout}></Header>
           </header>
           <main>
             <div className="container">
