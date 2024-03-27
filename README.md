@@ -1,4 +1,4 @@
-#NuKenzie
+# NuKenzie
 É uma aplicação para gerenciamento de gastos, cadastrando entradas e saídas.
 
 # Instalação
